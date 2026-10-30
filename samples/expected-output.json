@@ -1,0 +1,93 @@
+{
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "coverage": 1.0,
+  "confusion": {
+    "book": {
+      "book": 2,
+      "cancel": 0,
+      "handoff": 0,
+      "unknown": 0
+    },
+    "cancel": {
+      "book": 0,
+      "cancel": 2,
+      "handoff": 0,
+      "unknown": 0
+    },
+    "handoff": {
+      "book": 0,
+      "cancel": 0,
+      "handoff": 2,
+      "unknown": 0
+    }
+  },
+  "predictions": [
+    {
+      "text": "schedule an appointment",
+      "expected": "book",
+      "label": "book",
+      "confidence": 0.7932350121530729,
+      "probabilities": {
+        "book": 0.7932350121530729,
+        "cancel": 0.14715910003071753,
+        "handoff": 0.05960588781620961
+      }
+    },
+    {
+      "text": "reserve a visit",
+      "expected": "book",
+      "label": "book",
+      "confidence": 0.77420157387135,
+      "probabilities": {
+        "book": 0.77420157387135,
+        "cancel": 0.08617683670620989,
+        "handoff": 0.13962158942244018
+      }
+    },
+    {
+      "text": "cancel my visit",
+      "expected": "cancel",
+      "label": "cancel",
+      "confidence": 0.924672110472358,
+      "probabilities": {
+        "book": 0.0519195927963796,
+        "cancel": 0.924672110472358,
+        "handoff": 0.02340829673126246
+      }
+    },
+    {
+      "text": "remove the reservation",
+      "expected": "cancel",
+      "label": "cancel",
+      "confidence": 0.8240223291107699,
+      "probabilities": {
+        "book": 0.09253637759378348,
+        "cancel": 0.8240223291107699,
+        "handoff": 0.08344129329544665
+      }
+    },
+    {
+      "text": "connect to a person",
+      "expected": "handoff",
+      "label": "handoff",
+      "confidence": 0.9188666935588679,
+      "probabilities": {
+        "book": 0.06592363574004717,
+        "cancel": 0.015209670701084846,
+        "handoff": 0.9188666935588679
+      }
+    },
+    {
+      "text": "human staff please",
+      "expected": "handoff",
+      "label": "handoff",
+      "confidence": 0.6695941927302844,
+      "probabilities": {
+        "book": 0.1237633043264353,
+        "cancel": 0.20664250294328032,
+        "handoff": 0.6695941927302844
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[project]
+name = "intentbench-ml"
+version = "0.1.0"
+description = "A from-scratch multinomial Naive Bayes intent classifier with held-out evaluation, rejection and model serialization."
+requires-python = ">=3.11"
+dependencies = []

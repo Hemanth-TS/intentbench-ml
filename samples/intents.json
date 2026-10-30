@@ -1,0 +1,90 @@
+{
+  "train": [
+    {
+      "text": "book an appointment",
+      "label": "book"
+    },
+    {
+      "text": "schedule a visit tomorrow",
+      "label": "book"
+    },
+    {
+      "text": "reserve a consultation slot",
+      "label": "book"
+    },
+    {
+      "text": "make a booking for a checkup",
+      "label": "book"
+    },
+    {
+      "text": "appointment availability please",
+      "label": "book"
+    },
+    {
+      "text": "cancel my appointment",
+      "label": "cancel"
+    },
+    {
+      "text": "remove my booking",
+      "label": "cancel"
+    },
+    {
+      "text": "cancel the reservation please",
+      "label": "cancel"
+    },
+    {
+      "text": "I cannot attend my visit",
+      "label": "cancel"
+    },
+    {
+      "text": "please cancel tomorrow",
+      "label": "cancel"
+    },
+    {
+      "text": "connect me to a human",
+      "label": "handoff"
+    },
+    {
+      "text": "speak to a person please",
+      "label": "handoff"
+    },
+    {
+      "text": "transfer to reception",
+      "label": "handoff"
+    },
+    {
+      "text": "need a human operator",
+      "label": "handoff"
+    },
+    {
+      "text": "let me talk to staff",
+      "label": "handoff"
+    }
+  ],
+  "test": [
+    {
+      "text": "schedule an appointment",
+      "label": "book"
+    },
+    {
+      "text": "reserve a visit",
+      "label": "book"
+    },
+    {
+      "text": "cancel my visit",
+      "label": "cancel"
+    },
+    {
+      "text": "remove the reservation",
+      "label": "cancel"
+    },
+    {
+      "text": "connect to a person",
+      "label": "handoff"
+    },
+    {
+      "text": "human staff please",
+      "label": "handoff"
+    }
+  ]
+}
